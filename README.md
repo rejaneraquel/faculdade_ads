@@ -1,6 +1,9 @@
-Análise e Desenvolvimento de Sistemas
+***Análise e Desenvolvimento de Sistemas***
+
 Projetos da Estácio de Sá
+
 Descrição
+
 Este repositório foi criado para armazenar e organizar os projetos, códigos e atividades acadêmicas desenvolvidos durante o curso de Análise e Desenvolvimento de Sistemas na Universidade Estácio de Sá.
 
 O objetivo é documentar minha jornada de aprendizado, demonstrar a aplicação prática dos conceitos teóricos e servir como um portfólio dos meus estudos.

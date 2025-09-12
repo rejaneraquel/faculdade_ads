@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
@@ -7,7 +8,8 @@ int main()
   int idade;
   char nome[20];
   char opcao;
-  
+  char nomeCompleto[100];
+
   // idade
   printf("Digite sua idade: \n");
   scanf("%d", &idade);
@@ -22,6 +24,5 @@ int main()
   printf("\nDigite a opção: \n");
   scanf(" %c", &opcao);
   printf("A opção é: %c\n", opcao);
-  
   return 0;
 }

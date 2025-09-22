@@ -23,7 +23,7 @@ int main() {
   // Computador
   escolhaComputador = rand() % 3 + 1;
 
-  // Lógica do jogo
+  // Escolhas
   switch (escolhaJogador)
   {
   case 1:
@@ -57,6 +57,24 @@ int main() {
     printf("Computador Tesoura - \n");
     break;
   }
+
+  //Lógica do Jogo
+
+    if (escolhaComputador == escolhaJogador)
+      { 
+        printf("### Jogo Empatou! ###\n");
+      }
+      else if ((escolhaJogador == 1) && (escolhaComputador == 3) ||
+           (escolhaJogador == 2) && (escolhaComputador == 1) ||
+           (escolhaJogador == 3) && (escolhaComputador == 2))
+      {
+        printf("### Parabéns Você ganhou!!! ###\n");
+      }
+      else
+      {
+        printf("### Você Perdeu!!! ###\n");
+    };
+  
 
   return 0;
 }

@@ -19,11 +19,44 @@ int main() {
   // Usuário
   printf("Digite o número escolhido\n");
   scanf("%d", &escolhaJogador);
-  printf("Escolha Usuário: %d\n", escolhaJogador);
-
+  
   // Computador
   escolhaComputador = rand() % 3 + 1;
-  printf("Escolha Computador: %d\n", escolhaComputador);
+
+  // Lógica do jogo
+  switch (escolhaJogador)
+  {
+  case 1:
+    printf("Jogador Pedra - \n");
+    break;
+
+  case 2:
+    printf("Jogador Papel - \n");
+    break;
+
+  case 3:
+    printf("Jogador Tesoura - \n");
+    break;
+  
+  default:
+    printf("Opção inválida\n");
+    break;
+  }
+
+  switch (escolhaComputador)
+  {
+  case 1:
+    printf("Computador Pedra - \n");
+    break;
+
+  case 2:
+    printf("Computador Papel - \n");
+    break;
+
+  case 3:
+    printf("Computador Tesoura - \n");
+    break;
+  }
 
   return 0;
 }

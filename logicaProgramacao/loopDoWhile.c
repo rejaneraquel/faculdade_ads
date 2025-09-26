@@ -18,7 +18,7 @@ int main(){
     }
   } while (i % 2 != 0);
 
-  printf("Jogo acabou!\n");
+  printf("Número par digitado!!! Jogo acabou!\n");
 
   return 0;
 }

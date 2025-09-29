@@ -1,0 +1,17 @@
+  char estado1 = 'A';
+  char codigoCarta1[4] = 'A01';
+  char nomeCidade1[20] = 'SP';
+  unsigned long int populacao1 = 12325000;
+  float area1 = 1521.11;
+  float pib1 = 699.28;
+  int pontosTuristicos1 = 50;
+  float densidade1, pibPerCapita1;
+
+  char estado2 = 'B';
+  char codigoCarta2[4] = 'B02';
+  char nomeCidade2[20] = 'RJ';
+  unsigned long int populacao2 = 6748000;
+  float area2 = 1200.25;
+  float pib2 = 300.50;
+  int pontosTuristicos2 = 30;
+  float densidade2, pibPerCapita2;
